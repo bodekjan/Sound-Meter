@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="20.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_dialog"
+        android:orientation="vertical" >
+
+        <np.TextView
+            android:id="@+id/title"
+            style="@style/text_18_ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:gravity="center"
+            android:text="sfasfasf"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center|right" >
+            <np.TextView
+                android:id="@+id/message"
+                style="@style/text_16_666666"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="5dp"
+                android:text="0dB是人刚能听到的最微弱的声音；" />
+            <np.TextView
+                style="@style/text_16_666666"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="5dp"
+                android:text="30dB～40dB是较为理想的安静环境；" />
+            <np.TextView
+                style="@style/text_16_666666"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="5dp"
+                android:text="超过50dB会影响休息和睡眠" />
+            <np.TextView
+                style="@style/text_16_666666"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="5dp"
+                android:text="超过70dB会影响学习和工作；" />
+            <np.TextView
+                style="@style/text_16_666666"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="5dp"
+                android:text="超过90dB会影响听力；" />
+            <np.TextView
+                style="@style/text_16_666666"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:lineSpacingMultiplier="1.5"
+                android:padding="5dp"
+                android:text="如果突然暴露在高达150db的噪声环境中，鼓膜会破裂出血，双耳完全失去听力" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#ffd0d0d0" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <np.Button
+                android:id="@+id/negativeButton"
+                style="@style/text_15_666666_sdw"
+                android:layout_width="160dp"
+                android:layout_height="48dp"
+                android:background="@color/mygreen"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:text="知道了" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
